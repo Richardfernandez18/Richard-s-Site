@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard's</title>
+</head>
+<body>
+    <div id="nav-bar">
+        <h1 id="home">Richard Fernandez</h1>
+        <div id="hamburger-background"></div>
+        <div id="hamburger-menu">
+            <ul class="hamburger-list">
+                <a href="#home"><li id='ham-item1' class="hamburger-items">Home</li></a>
+                <a href="#skills-heading"><li id='ham-item2' class="hamburger-items">Skills</li></a>
+                <a href="#education-heading"><li id='ham-item3' class="hamburger-items">Education</li></a>
+                <a href="#project-heading"><li id='ham-item4' class="hamburger-items item4">Projects</li></a>
+            </ul>
+        </div>
+        <div onclick="hamburger()" id="nav-hamburger">
+            <div id="hamburger-container">
+                <span id='item1' class="bar bar1"></span>
+                <span id='item2' class="bar bar2"></span>
+                <span id='item3' class="bar bar3"></span>
+            </div>
+        </div>
+        <!--div class="hamburger-container">
+            <input type="checkbox" id="checkbox3" class="checkbox3 visuallyHidden">
+            <div class="hamburger hamburger3">
+                <span class="bar bar1"></span>
+                <span class="bar bar2"></span>
+                <span class="bar bar3"></span>
+                <span class="bar bar4"></span>
+            </div>
+        <div-->
+    </div>
+    <div id='bio' class="bio" >
+        <p id="bio-paragraph"><span id="intro">Richard Fernandez</span> is an emerging front end developer that was born and raised in Homestead, Florida. Richard recently finished a self taught course regarding front end development, and is seeking to persue back end development to accomplish his main goal--to acquire a career as a front end developer. </p>
+    </div>
+    <div class="bio-box-side" id="bio-box-side"></div>
+    <div id="img" class="img">
+        <div id="img-box" class="img-box"></div>
+    </div>
+    <div id="bio-box-bottom" class="bio-box-bottom"></div>
+    <div class='circle-container-1' id="circle-container-1">
+        <hr id="horizontal-rule1">
+        <div class="circle" id="circle-1"></div>
+        <div class="semi-circle-left" id="semi-circles-left-1"></div>
+        <div class="semi-circle-right" id="semi-circles-right-1"></div>
+        <div id='circle-2' class="circle"></div>
+    </div>
+<!--skills-->
+    <div id="skills" class="skills">
+        <div id="skills-right">
+            <p id="skills-heading" class="skills-heading">Skills</p>
+            <p id="skills-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos eveniet adipisci ullam eligendi iure dolore. Quam fugit mollitia exercitationem.</p>
+        </div>
+        <div id="skills-left" class="skills-left">
+            <ul id="ul">
+                <div class="skill-container" id="skill-container-a">
+                    <div id="skills-side-a" class="skills-side"></div>
+                    <li class="li"><p class="skills-text">HTML</p><div class="skills-icon"><img class='skills-pics' src="./src/Html.png" alt="HTML"></div></li>
+                    <div class="skills-bottom" id="skills-bottom-a"></div>
+                </div>
+                <div class="skill-container" id="skill-container-b">
+                    <div id='skills-side-b' class="skills-side"></div>
+                    <li class="li" ><p class="skills-text">CSS</p><div class="skills-icon"><img class='skills-pics' src="./src/css-logo.png" alt="css"></div></li>
+                    <div class="skills-bottom" id="skills-bottom-b"></div>
+                </div>
+                <div class="skill-container" id="skill-container-c"> 
+                    <div id="skills-side-c" class="skills-side"></div>
+                    <li class="li"><p class="skills-text">Javascript</p><div class="skills-icon"><img class='skills-pics' src="./src/javascript-icon.webp" alt="javascript"></div></li>
+                    <div class="skills-bottom" id="skills-bottom-c"></div>
+                </div>
+                <div class="skill-container" id="skill-container-d">
+                    <div id='skills-side-d' class="skills-side"></div>
+                    <li class="li"><p class="skills-text">React</p><div class="skills-icon"><img class='skills-pics' src="./src/finished-react-logo2.png" alt="react"></div></li>
+                    <div class="skills-bottom" id="skills-bottom-d"></div>
+                </div>
+            </ul>
+        </div>
+    </div>
+<!--Projects-->
+    </div>
+    <div id="three-lines">
+        <div id="three-lines-small"></div>
+        <div id="three-lines-med"></div>
+        <div id="three-lines-large"></div>
+    </div>
+    <div id="projects">
+        <div class='education' id="education">
+            <h2 class='education-heading' id="education-heading">Education</h2>
+            <p id="education-paragraph">Richard Fernandez is an emerging front end developer that was born and raised in Homestead, Florida. 
+                Richard recently finished a self taught course regarding front end development, and is seeking to persue back end development
+                 to accomplish his main goal--to acquire a career as a front end developer. 
+            </p>
+        </div>
+        <div class="circles-container-2">
+            <div class='circle' id="circles-3"></div>
+            <div class="semi-circle-right" id="semi-circles-right-2"></div> 
+            <div class="semi-circle-left" id="semi-circles-left-2"></div>
+            <div class='circle' id="circles-4"></div>
+        </div>
+        <hr id="horizontal-rule2">
+        <!--div id="projects-box"-->
+            <div id="projects-box" class="projects-box">
+                <div class='project-left' id="project-left">
+                    <h2 id="project-heading">Projects</h2>
+                    <p id="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi alias voluptatibus molestias quisquam neque omnis dolorum vero rem asperiores aspernatur, modi.</p>
+                </div>
+                <div id="image-container">
+                    <img class='project-img' id='project-img' src="./src/anime-finder-screenshot.png" alt="anime finder website">
+                </div>
+            </div>
+        <!--/div-->
+    </div>
+<!--Footer-->
+    <div id="footer">                                                                                                                                   
+        <h3 id="footer-heading">Contact</h3>
+        <a href="mailto:email@richardf1162@gmail.com"><p id="footer-email"><span class="footer-names">Email</span><br> Richardf1162@gmail.com</p></a>
+        <p id="footer-phone"><span class="footer-names">Phone</span><br> 786-508-7439</p>
+    </div>
+</body>
+</html>
