@@ -19,4 +19,14 @@ function hamburger() {
         return
     }
 }
+function hamBackground() { //make the menu disappear when you click background
+    if(on === true) {
+        document.getElementById('hamburger-background').style.display = 'none';
+        document.getElementById('item1').style.backgroundColor = 'black';
+        document.getElementById('item2').style.backgroundColor = 'black';
+        document.getElementById('item3').style.backgroundColor = 'black';
+        document.getElementById('hamburger-menu').style.display = 'none';
+        on = false;
+    }
+}
 
