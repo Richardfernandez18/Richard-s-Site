@@ -15,9 +15,33 @@
         width: 3.6vh;
         height: 3.6vh;
     }
+    #hamburger-menu {
+        height: 45vh;
+        width: 50vw;
+    }
     #hamburger-container {
         width: 60%;
         height: 60%;
+    }
+    #ham-item1 {
+        font-size: 9vw;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    #ham-item2 {
+        font-size: 9vw;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    #ham-item3 {
+        font-size: 9vw;
+        height: 100%;
+        box-sizing: border-box;
+    }
+    #ham-item4 {
+        font-size: 9vw;
+        height: 100%;
+        box-sizing: border-box;
     }
 
 }
@@ -28,6 +52,9 @@
         border-bottom: 3vw #3461A8 solid;
         width: 100%;
         height: 70vh;
+    }
+    #bio-paragraph {
+        font-size: 4.5vw;
     }
     #bio-box-side {
         display: none;
@@ -42,6 +69,12 @@
     #img-box {
         height: 55vw;
         width: 55vw;
+    }
+    .hamburger-list {
+        height: 100%;
+    }
+    a {
+        height: 100%;
     }
 
     /*skills section*/
@@ -58,6 +91,12 @@
     #skills-heading {
         font-size: 18vw;
         height: 18vw;
+        padding: 0 0 2vw 0;
+        text-align: center;
+    }
+    #skills-info {
+        margin: 1.8vw 0 0 11.5%;
+        text-align: center;
     }
     #skills-left {
         width: 100%;
@@ -69,7 +108,7 @@
     #ul {
         height: 100%;
         width: 50%;
-        margin: 0;
+        margin: 0 0 0 4.5vw;
         justify-content: normal;
     }
     #skill-container-a {
@@ -155,16 +194,27 @@
     }
     /*projects-box*/
     #projects-box {
-        margin: 0 0 8vmax 0;
+        margin: 0 0 12vmax 0;
         height: auto;
         flex-direction: column;
     }
     #project-left {
+        width: 100%;
         margin: 0.5vmax 0 3vmax 0;
+    }
+    #project-heading {
+        margin-top: 5vw;
+        font-size: 18vw;
+        width: 70%;
     }
     #project-img {
         width: 60vw;
         height: 70vw;
+    }
+
+    /*footer */
+    #footer-heading {
+        font-size: 18vw;
     }
 
 }
@@ -196,6 +246,10 @@ h1 {
     height: 6vw;
     border-bottom: .5vw solid black;
 }
+.nav-hamburger:hover {
+    background-color: #3461A8;
+    
+}
 .nav-hamburger {
     z-index: 4;
     box-shadow: -0.1vw 0.2vw 1.1vw;
@@ -221,8 +275,8 @@ a {
 }
 #hamburger-container {
     top: 0.5vw;
-    width: 4vw;
-    height: 4vw;
+    width: 60%;
+    height: 60%;
     position: relative;
 }
 .bar {
@@ -270,7 +324,7 @@ a {
 .item4 {
     border-bottom: 0;
 }
-#hamburger-menu {
+.hamburger-menu {
     border-radius: 0.7vw;
     display: inline-block;
     box-shadow: 0vw 0vw 6vw rgb(0 0 0);
@@ -294,7 +348,7 @@ a {
     justify-content: center;
     align-items: center;
 }
-#bio-paragraph {
+.bio-paragraph {
     text-align: center;
     font-size: 3.2vw;
     display: inline-block;
@@ -365,7 +419,7 @@ a {
 }
 #circle-1 {
     position: relative;
-    left: 51.4vw;
+    left: 53.4%;
 }
 .semi-circle-left {
     border-radius: 50vw 0 0 50vw;
@@ -385,13 +439,13 @@ a {
 }
 #semi-circles-left-1 {
     background-color: #284B82;
-    left: 74.37vw;
+    left: 76.37%;
 }
 #semi-circles-right-1 {
-    left: 66vw;
+    left: 68%;
 }
 #circle-2 {
-    left: 82.66vw;
+    left: 84.66%;
 }
 
 
@@ -416,7 +470,7 @@ a {
     margin: 7vw 0 0 5%;
     border-bottom: 0.5vw black solid;
 }
-#skills-info {
+.skills-info {
     width: 80%;
     margin: 0.5rem 0 0 5%;
     display: inline-block;
@@ -645,7 +699,7 @@ li {
     align-items: center;
     flex-direction: column;
 }
-#project-heading {
+.project-heading {
     font-weight: 200;
     font-size: 12vw;
     color: white;
@@ -659,7 +713,7 @@ li {
 }
 #project-text {
     text-align: center;
-    margin: 1vw;
+    margin: 1.8vw;
     font-size: 2vw;
     color: white;
     width: 85%;
@@ -687,7 +741,7 @@ li {
     height: auto;
     background-color: white;
 }
-#footer-heading {
+.footer-heading {
     position: relative;
     display: inline-block;
     width: 80%;
@@ -705,14 +759,14 @@ a {
     position: relative;
     font-family: 'Quicksand', sans-serif;
     text-decoration: none;
-    margin: 4vw 5vw 6.5vw 2vw;
+    margin: 6.5vw 0vw 6.5vw 5vw;
     font-size: 4.5vw;
     display: block;
 }
 #footer-phone {
     float: right;
     font-family: 'Quicksand', sans-serif;
-    margin: 4vw 2vw 2vw 3vw;
+    margin: 6.5vw 5vw 6.5vw 0vw;
     font-size: 4.5vw;
     color: black;
 }
