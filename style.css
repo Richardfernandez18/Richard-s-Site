@@ -138,7 +138,7 @@
     }
     #skills-right {
         height: 100%;
-        margin: 5vw 0 0vw 0;
+        margin: 10vw 0 0vw 0;
     }
     #ul {
         height: 100%;
@@ -240,7 +240,7 @@
     }
     /*education*/
     #education {
-        height: 120vw;
+        height: 135vw;
         margin: 0 0 6vmax 0;
     }
     #education-heading {
