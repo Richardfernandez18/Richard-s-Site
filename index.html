@@ -8,7 +8,7 @@
     <link rel="manifest" href="./favicon_io/site.webmanifest">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Oswald&family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" viewport-fit="cover">
@@ -21,9 +21,9 @@
         <div class='hamburger-menu' id="hamburger-menu">
             <ul class="hamburger-list">
                 <a href="#home"><li id='ham-item1' class="hamburger-items">Home</li></a>
-                <a href="#skills-heading"><li id='ham-item2' class="hamburger-items">Skills</li></a>
+                <a href="#skill-container-a"><li id='ham-item2' class="hamburger-items">Skills</li></a>
                 <a href="#education-heading"><li id='ham-item3' class="hamburger-items">Education</li></a>
-                <a href="#project-heading"><li id='ham-item4' class="hamburger-items item4">Projects</li></a>
+                <a href="#image-container"><li id='ham-item4' class="hamburger-items item4">Projects</li></a>
             </ul>
         </div>
         <div onclick="hamburger()" class='nav-hamburger'id="nav-hamburger">
@@ -44,46 +44,62 @@
         <div-->
     </div>
     <div id='bio' class="bio" >
-        <p class='bio-paragraph' id="bio-paragraph"><span id="intro">Richard Fernandez</span> is an emerging front end developer that was born and raised in Homestead, Florida. Richard recently finished a self taught course regarding front end development, and is seeking to persue back end development to accomplish his main goal--to acquire a career as a front end developer. </p>
+        <p class='bio-paragraph' id="bio-paragraph"><span id="intro">Richard Fernandez</span> is an emerging Front End Developer that was born and raised in Homestead, Florida. Richard recently finished a self taught course regarding Front End development, and is seeking to persue back end development to accomplish his main goal--to acquire a career as a Full-Stack Developer. </p>
     </div>
     <div class="bio-box-side" id="bio-box-side"></div>
     <div id="img" class="img">
-        <div id="img-box" class="img-box"></div>
+        <div id="img-box" class="img-box"><img class='my-img' id="my-img" src="./src/20221027_221808.jpg" alt="Picture of Richard Fernandez"></div>
     </div>
-    <div id="bio-box-bottom" class="bio-box-bottom"></div>
+    <!--div id="beige-bottom" class="beige-bottom"></div-->
     <div class='circle-container-1' id="circle-container-1">
-        <hr id="horizontal-rule1">
+        <hr id="horizontal-rule1" class="horizontal-rule1">
         <div class="circle" id="circle-1"></div>
         <div class="semi-circle-left" id="semi-circles-left-1"></div>
         <div class="semi-circle-right" id="semi-circles-right-1"></div>
         <div id='circle-2' class="circle"></div>
     </div>
+    <div id="bio-box-bottom" class="bio-box-bottom"></div>
+    <!--div class='circle-container-1' id="circle-container-1">
+        <hr id="horizontal-rule1">
+        <div class="circle" id="circle-1"></div>
+        <div class="semi-circle-left" id="semi-circles-left-1"></div>
+        <div class="semi-circle-right" id="semi-circles-right-1"></div>
+        <div id='circle-2' class="circle"></div>
+    </div-->
 <!--skills-->
     <div id="skills" class="skills">
-        <div id="skills-right">
+        <div id="skills-right" class="skills-right" >
             <p id="skills-heading" class="skills-heading">Skills</p>
-            <p class='skills-info' id="skills-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos eveniet adipisci ullam eligendi iure dolore. Quam fugit mollitia exercitationem.</p>
+            <p class='skills-info' id="skills-info">
+                Richard's strengths lie in the Web Development technologies listed.
+                 He is also proficient at the following:
+                <ul id="skills-right-ul" class="skills-right-ul">
+                    <li>Redux</li>
+                    <li>Github</li>
+                    <li>Image docturing</li>
+                </ul>
+            </p>
         </div>
         <div id="skills-left" class="skills-left">
-            <ul id="ul">
+            <ul id="skills-left-ul" class="skills-left-ul">
                 <div class="skill-container" id="skill-container-a">
                     <div id="skills-side-a" class="skills-side"></div>
-                    <li class="li"><p class="skills-text">HTML</p><div class="skills-icon"><img class='skills-pics' src="./src/Html.png" alt="HTML"></div></li>
+                    <li id="skills-left-li-a" class="skills-left-li"><p class="skills-text">HTML</p><div class="skills-icon"><img class='skills-pics' src="./src/Html.png" alt="HTML"></div></li>
                     <div class="skills-bottom" id="skills-bottom-a"></div>
                 </div>
                 <div class="skill-container" id="skill-container-b">
                     <div id='skills-side-b' class="skills-side"></div>
-                    <li class="li" ><p class="skills-text">CSS</p><div class="skills-icon"><img class='skills-pics' src="./src/css-logo.png" alt="css"></div></li>
+                    <li id="skills-left-li-b" class="skills-left-li" ><p class="skills-text">CSS</p><div class="skills-icon"><img class='skills-pics' src="./src/css-logo.png" alt="css"></div></li>
                     <div class="skills-bottom" id="skills-bottom-b"></div>
                 </div>
                 <div class="skill-container" id="skill-container-c"> 
                     <div id="skills-side-c" class="skills-side"></div>
-                    <li class="li"><p class="skills-text">Javascript</p><div class="skills-icon"><img class='skills-pics' src="./src/javascript-icon.webp" alt="javascript"></div></li>
+                    <li id="skills-left-li-c" class="skills-left-li"><p class="skills-text">Javascript</p><div class="skills-icon"><img class='skills-pics' src="./src/javascript-icon.webp" alt="javascript"></div></li>
                     <div class="skills-bottom" id="skills-bottom-c"></div>
                 </div>
                 <div class="skill-container" id="skill-container-d">
                     <div id='skills-side-d' class="skills-side"></div>
-                    <li class="li"><p class="skills-text">React</p><div class="skills-icon"><img class='skills-pics' src="./src/finished-react-logo2.png" alt="react"></div></li>
+                    <li id="skills-left-li-d" class="skills-left-li"><p class="skills-text">React</p><div class="skills-icon"><img class='skills-pics' src="./src/finished-react-logo2.png" alt="react"></div></li>
                     <div class="skills-bottom" id="skills-bottom-d"></div>
                 </div>
             </ul>
@@ -99,9 +115,19 @@
     <div id="projects">
         <div class='education' id="education">
             <h2 class='education-heading' id="education-heading">Education</h2>
-            <p id="education-paragraph">Richard Fernandez is an emerging front end developer that was born and raised in Homestead, Florida. 
-                Richard recently finished a self taught course regarding front end development, and is seeking to persue back end development
-                 to accomplish his main goal--to acquire a career as a front end developer. 
+            <p class="education-paragraph" id="education-paragraph">Richard remained dedicated throughout his study and project developing while working long hour shifts
+                as an Express Technician for Lexus. Even while returning to his residence, he remained diligent in his
+                practice and learning.
+                Richard progressed his learning through the online interactive course platform, Codecademy.com. This
+                course was completed through self-learning—educating the learner to possess job-ready skills. The
+                following methods provided reinforcement to Richard's training:
+                <ul class="education-ul" id="education-ul">
+                    <li>Summarize learning through note taking.</li>
+                    <li>Practicing examples provided through Codecademy.</li>
+                    <li>Routinely review notes.</li>
+                    <li>Exploring outside influences and demonstrations.</li>
+                    <li>Assisting peers with their coding obstacles while providing constructive feedback.</li>
+                </ul>
             </p>
         </div>
         <div class="circles-container-2">
@@ -115,11 +141,13 @@
             <div id="projects-box" class="projects-box">
                 <div class='project-left' id="project-left">
                     <h2 class='project-heading' id="project-heading">Projects</h2>
-                    <p id="project-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi alias voluptatibus molestias quisquam neque omnis dolorum vero rem asperiores aspernatur, modi.</p>
+                    <p class='project-text' id="project-text"><span id="project-site-title" class="project-site-title">Anime Finder:</span> A SPA built with React. Search and discover animes of all kinds. Using the Kitsu API to pull titles, and display detailed information for each title.</p>
+                    <a id='project-link' class="project-link" href="https://anime-finderr.netlify.app">Anime Finder</a>
                 </div>
                 <div id="image-container">
                     <img class='project-img' id='project-img' src="./src/anime-finder-screenshot.png" alt="anime finder website">
                 </div>
+                
             </div>
         <!--/div-->
     </div>
